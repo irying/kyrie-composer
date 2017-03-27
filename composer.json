@@ -1,0 +1,21 @@
+{
+    "name": "kyrie/hammer",
+    "description": "StringUtil",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "irying",
+            "email": "kyrieup@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "classmap": [
+            "database"
+        ],
+        "psr-4": {
+            "Kyrie\\Hammer\\": "src/"
+        }
+    }
+}
